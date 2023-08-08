@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JavaCodes_1691536285619-push-trigger-input-set
+  identifier: Build_JavaCodes_1691536285619pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_JavaCodes_1691536285619
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
