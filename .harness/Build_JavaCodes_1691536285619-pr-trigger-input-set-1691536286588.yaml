@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JavaCodes_1691536285619-pr-trigger-input-set
+  identifier: Build_JavaCodes_1691536285619prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_JavaCodes_1691536285619
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
